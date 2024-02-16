@@ -1,1 +1,68 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'scss/themes';
+@use 'scss/fonts';
+
+@import 'scss/layout';
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Megrim&display=swap');
+
+:root {
+    @include themes.default;
+    @include fonts.inconsolata-regular;
+
+    :has(.purple-primary) {
+        @include themes.purple;
+    }
+
+    :has(.red-primary) {
+        @include themes.red;
+    }
+
+    :has(.blue-primary) {
+        @include themes.blue;
+    }
+
+    :has(.yellow-primary) {
+        @include themes.yellow;
+    }
+
+    :has(.green-primary) {
+        @include themes.green;
+    }
+
+    :has(.orange-primary) {
+        @include themes.orange;
+    }
+
+    :has(.pink-primary) {
+        @include themes.pink;
+    }
+
+    :has(.purple-secondary) {
+        @include themes.purple-secondary;
+    }
+
+    :has(.red-secondary) {
+        @include themes.red-secondary;
+    }
+
+    :has(.blue-secondary) {
+        @include themes.blue-secondary;
+    }
+
+    :has(.yellow-secondary) {
+        @include themes.yellow-secondary;
+    }
+
+    :has(.green-secondary) {
+        @include themes.green-secondary;
+    }
+
+    :has(.orange-secondary) {
+        @include themes.orange-secondary;
+    }
+
+    :has(.pink-secondary) {
+        @include themes.pink-secondary;
+    }
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+}

@@ -1,0 +1,36 @@
+body {
+    overflow-y: auto;
+}
+@media (max-width: 30em) {
+body {
+    margin: 0em 1em;
+}
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+    body {
+        max-width: min(40em, 90%);
+        margin: 0em auto;
+    }
+}
+
+@media (min-width: 50em) and (max-width: 64em) {
+    body {
+        max-width: min(62em, 90%);
+        margin: 0em auto;
+    }
+}
+
+@media (min-width: 64em) and (max-width: 75em){
+    body {
+        max-width: min(70em, 90%);
+        margin: 0em auto;
+    }
+}
+
+@media (min-width: 75em) {
+    body {
+        max-width: min(90em, 90%);
+        margin: 0em auto;
+    }
+}

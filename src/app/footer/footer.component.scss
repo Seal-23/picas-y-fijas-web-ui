@@ -1,0 +1,31 @@
+footer {
+    margin: 100px 0;
+    background-color: var(--secondary-bg-color);
+    padding: 2em;
+    border-radius: 1em;
+    position: relative;
+    display: grid;
+    grid-template-columns: 6.25em 1fr 2em 2em;
+    column-gap: 2em;
+    align-items: center;
+
+
+    .conker {
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        height: 7.75em;
+        width: 6.25em;
+    }
+
+    .linkedin {
+        height: 2em;
+        width: 2em;
+        margin-right: 2em;
+    }
+
+    .github {
+        height: 2em;
+        width: 2em;
+    }
+}

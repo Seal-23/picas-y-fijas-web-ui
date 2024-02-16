@@ -1,0 +1,80 @@
+@mixin default {
+    --primary-bg-color: #1C1B22;
+    --secondary-bg-color: #0E0D11;
+    --disabled-bg-color: #414558;
+    --text-color: #F8F8F2;
+    --emphasis-text-color: #FFFFFF;
+    --disabled-text-color: #A7ABBE;
+}
+
+@mixin purple {
+    --primary-color: #9580FF;
+    --btn-text-color: #000000;
+}
+
+@mixin red {
+    --primary-color: #FF6E51;
+    --btn-text-color: #000000;
+}
+
+@mixin blue {
+    --primary-color: #92FFFF;
+    --btn-text-color: #000000;
+}
+
+@mixin yellow {
+    --primary-color: #FFFF80;
+    --btn-text-color: #000000;
+}
+
+@mixin green {
+    --primary-color: #8AFF80;
+    --btn-text-color: #000000;
+}
+
+@mixin orange {
+    --primary-color: #FFB64F;
+    --btn-text-color: #000000;
+}
+
+@mixin pink {
+    --primary-color: #FF80BF;
+    --btn-text-color: #000000;
+}
+
+
+@mixin purple-secondary {
+    --secondary-color: #9580FF;
+    --secondary-btn-text-color: #000000;
+}
+
+@mixin red-secondary {
+    --secondary-color: #FF6E51;
+    --secondary-btn-text-color: #000000;
+}
+
+@mixin blue-secondary {
+    --secondary-color: #92FFFF;
+    --secondary-btn-text-color: #000000;
+}
+
+@mixin yellow-secondary {
+    --secondary-color: #FFFF80;
+    --secondary-btn-text-color: #000000;
+}
+
+@mixin green-secondary {
+    --secondary-color: #8AFF80;
+    --secondary-btn-text-color: #000000;
+}
+
+@mixin orange-secondary {
+    --secondary-color: #FFB64F;
+    --secondary-btn-text-color: #000000;
+}
+
+@mixin pink-secondary {
+    --secondary-color: #FF80BF;
+    --secondary-btn-text-color: #000000;
+}
+
